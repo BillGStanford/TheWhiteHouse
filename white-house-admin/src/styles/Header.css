@@ -1,0 +1,51 @@
+/* Styles for Header Component */
+.header {
+    background-color: #003366; /* Dark blue background */
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 15px;
+}
+
+.header-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-menu {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li {
+    margin-right: 20px;
+}
+
+.nav-menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav-menu li a:hover {
+    color: #cccccc; /* Lighter grey on hover */
+    transition: color 0.3s ease-in-out;
+}

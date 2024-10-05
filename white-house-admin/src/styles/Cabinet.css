@@ -1,0 +1,59 @@
+.cabinet-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Georgia', serif;
+  }
+  
+  .title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #2f4858;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+  }
+  
+  .cabinet-members {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 40px;
+    justify-content: center;
+  }
+  
+  .cabinet-member {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .cabinet-member-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .cabinet-member-details {
+    padding-left: 10px;
+  }
+  
+  .cabinet-member-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2f4858;
+    margin-bottom: 5px;
+  }
+  
+  .cabinet-member-position {
+    font-size: 16px;
+    color: #777;
+  }
+  

@@ -1,0 +1,69 @@
+/* Main Briefing List Styles */
+.briefing-room {
+    padding: 40px;
+    text-align: left;
+}
+
+.briefing-room h1 {
+    font-size: 32px;
+    color: #003366; /* Dark Blue */
+    margin-bottom: 30px;
+}
+
+.briefing-list {
+    border-top: 1px solid #ccc;
+}
+
+.briefing-item {
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.briefing-item h2 {
+    font-size: 24px;
+    color: #003366; /* Dark Blue */
+    margin: 0;
+}
+
+.briefing-item p {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0 0 0;
+}
+
+.briefing-item .category {
+    color: #003366; /* Dark Blue */
+}
+
+/* Article Page Styles */
+.article-page {
+    padding: 40px;
+}
+
+.article-page h1 {
+    font-size: 36px;
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+.article-page .date {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.article-page .content {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+/* Link Styles */
+a {
+    text-decoration: none;
+}
+
+a:hover h2 {
+    color: #00509e; /* Lighter Blue */
+}
